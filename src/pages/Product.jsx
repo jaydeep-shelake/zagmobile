@@ -104,9 +104,9 @@ const Product = () => {
             <p className="font-semibold text-[16px] leading-[150%] text-[#000000]">${price}.00</p>
           </div>
           <div>
-            <button className="flex items-center justify-center w-[200px] py-[17px] bg-[#000000] rounded-[30px]">
+            <button className="flex items-center justify-center w-[200px] py-[17px] bg-[#000000] rounded-[30px]" onClick={()=>setShowModal(!showModal)}>
               <img src={shoppingIcon} alt="bag"  className="w-[16px] h-[16px] mr-[16px]"/>
-              <p className="font-semibold text-[16px] leading-[100%] text-[#FFFFFF] " onClick={()=>setShowModal(!showModal)}>Buy Now</p>
+              <p className="font-semibold text-[16px] leading-[100%] text-[#FFFFFF] " >Buy Now</p>
             </button>
           </div>
         </div>
