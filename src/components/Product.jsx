@@ -6,13 +6,13 @@ const Product = () => {
             title:'The Marc Jacobs',
             subTitle:' Traveler Tote',
             price:' 195.00',
-            img:'/public/bag.png'
+            img:'https://res.cloudinary.com/qtalk/image/upload/v1685967675/SuperLeaves/bag_me7oun.png'
         },
         {
             title:'Axel Arigato',
             subTitle:' Clean 90 Triple Sneakerse',
             price:' 245.00',
-            img:'/public/shoe.png'
+            img:'https://res.cloudinary.com/qtalk/image/upload/v1685967675/SuperLeaves/shoe_k7stro.png'
         }
     ]
   return (
